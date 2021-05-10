@@ -44,7 +44,7 @@ public class HashSetEx {
 		 }
 		 
 		 //lambda exp
-		 hashSet.forEach((Integer value) -> System.out.print(value));//why Integer not int and look at the print order!!
+		 hashSet.forEach((Integer value) -> System.out.print(value));//why Integer not int and look at the print order!!// no intersion order as hashSet dont maintain insertion order
 
 		 hashSet.forEach(System.out::print);
 	}
